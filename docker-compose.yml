@@ -25,6 +25,6 @@ slavedb:
   environment:
     MYSQL_ROOT_PASSWORD: mypass
     REPLICATION_MODE: slave
-    REPLICATION_HOST: master
+    REPLICATION_HOST: masterdb
     REPLICATION_USER: relp
     REPLICATION_PASS: pass
